@@ -1,3 +1,4 @@
+
 var Voicemod = (function(){
 
     var pluginVersion = "1.0.0";
@@ -91,7 +92,7 @@ var Voicemod = (function(){
                             if (message.actionObject)
                                 stringLicenseType = message.actionObject.licenseType;
 
-                            updateUI();
+                            vmUpdateUI();
                         }
                         break
 					case 'toggleBackground':
